@@ -1,0 +1,75 @@
+body{
+	background-image: url(../images/logo.jpg);
+	background-color: black;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: contain;
+  	-webkit-background-size: contain;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+}	
+
+#maincontainer{
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-family: 'Poller One', cursive;
+	text-shadow: 0px 0px 20px #ffffff;
+	font-size: 290%;
+	}
+
+#battle{
+	color: black;
+	font-family: 'Poller One', cursive;
+	text-shadow: 0px 0px 20px red;
+	font-size: 290%;
+}	
+
+#box1{
+	background: #ffe6e6;
+	color: grey;
+	border: 5px;
+	border-color: #4aaaa5;
+}
+
+#box2{
+	background: #ffe6e6;
+	color: grey;
+	border: 5px;
+	border-color: #4aaaa5;
+
+
+}
+
+#yoda{
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Poller One', cursive;
+
+}
+
+#luke{
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Poller One', cursive;
+}
+
+#darth{
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Poller One', cursive;
+}
+
+#bobafett{
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Poller One', cursive;
+}
+
+h1{
+	font-size: 110%;
+	line-height: 1px;
+}
