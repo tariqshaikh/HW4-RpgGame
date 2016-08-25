@@ -1,10 +1,10 @@
 body{
 	background-image: url(../images/logo.jpg);
 	background-color: black;
-	background-position: center;
-  	background-repeat: no-repeat;
+	background-position: left;
+  	background-repeat: round;
   	background-attachment: fixed;
-  	background-size: contain;
+  	background-size: cover;
   	-webkit-background-size: contain;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -21,6 +21,7 @@ p{
 	font-size: 290%;
 	}
 
+
 #battle{
 	color: black;
 	font-family: 'Poller One', cursive;
@@ -33,6 +34,11 @@ p{
 	color: grey;
 	border: 5px;
 	border-color: #4aaaa5;
+	width: 750px;
+    height: 210px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+
 }
 
 #box2{
@@ -40,36 +46,44 @@ p{
 	color: grey;
 	border: 5px;
 	border-color: #4aaaa5;
-
+	width: 750px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
 
 }
 
-#yoda{
-	max-height: 100%;
-	max-width: 100%;
-	font-family: 'Poller One', cursive;
+#box3{
+	background: #ffe6e6;
+	color: grey;
+	border: 5px;
+	border-color: #4aaaa5;
+	width: 750px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
 
+}
+
+
+#yoda{
+	font-family: 'Poller One', cursive;
 }
 
 #luke{
-	max-height: 100%;
-	max-width: 100%;
 	font-family: 'Poller One', cursive;
 }
 
 #darth{
-	max-height: 100%;
-	max-width: 100%;
 	font-family: 'Poller One', cursive;
 }
 
 #bobafett{
-	max-height: 100%;
-	max-width: 100%;
 	font-family: 'Poller One', cursive;
 }
 
 h1{
-	font-size: 110%;
+	font-size: 90%;
 	line-height: 1px;
 }
+
