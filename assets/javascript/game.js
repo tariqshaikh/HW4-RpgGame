@@ -14,21 +14,22 @@ $(document).ready(function(){
 
 $(".character").on("click", function() {
 
-	//
+	//neither character or enemy has been chosen 
 	if (playerChosen == false){
 		playerChosen = true;
 
 		chosenCharacter = $(this);
-		$("#box2").append(chosenCharacter);	
+		$("#uno").append(chosenCharacter);	
 
 		enemy = $('.character').not(this);
 		$("#box3").append(enemy);
 
+	//player is chosen + enemy is not chosen 
 	}else if(enemyChosen == false && playerChosen == true){
 		enemyChosen = true
 
 		chosenEnemy = $(this);
-		$("#box2").append(chosenEnemy);	
+		$("#tres").append(chosenEnemy);	
 
 	}
 
